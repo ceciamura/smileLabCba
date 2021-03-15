@@ -84,17 +84,15 @@
   text-align: left;
   margin-bottom: 2em; }
 
-.diseno {
-  border: 3px solid red;
-  height: auto; }
-  .diseno__parrafo {
-    font-size: 25px;
-    color: #5fafab;
-    text-align: center; }
-    .diseno__parrafo--rojo {
-      color: red; }
-    .diseno__parrafo--uppercase {
-      text-transform: uppercase; }
+.container__carillas {
+  margin-bottom: 5rem; }
+  .container__carillas .carillas__texto {
+    font-size: 1.5rem;
+    color: gray;
+    font-family: "Libre Franklin", sans-serif; }
+    .container__carillas .carillas__texto .carillas__texto--titulo {
+      font-size: 2rem;
+      color: #31326f; }
 
 .titulosPaginas {
   color: #31326f;
@@ -242,7 +240,7 @@
 .navbar a {
   font-size: 1.5rem;
   font-family: "libre franklin", sans-serif;
-  padding-right: 8em;
+  padding-right: 6em;
   color: gray; }
 
 .navbar li a:hover {
@@ -262,11 +260,11 @@
   align-items: center; }
   .turnoContenedor article {
     padding-top: 2em;
-    width: 30%;
+    /* width: 30%; */
     height: auto;
     color: white;
     font-family: 'montserrat' Arial, Helvetica, sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-align: left;
     text-transform: uppercase; }
 
@@ -305,6 +303,9 @@
   height: auto;
   background-position-y: -100px;
   opacity: .9; }
+
+.iconosContenedor .row {
+  width: 100%; }
 
 .tituloIconos {
   font-family: "libre Franklin", sans-serif;
@@ -368,7 +369,7 @@
   border: 2px solid white;
   padding: 10px 15px;
   border-radius: 5px;
-  font-size: 1rem; }
+  font-size: 1.5rem; }
 
 .buttonIcono:hover {
   -webkit-transform: scale(1.2);

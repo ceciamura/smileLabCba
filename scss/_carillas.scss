@@ -1,20 +1,17 @@
-$colorVerde:#5fafab;
-.diseno{
-        border: 3px solid red;
-        height: auto;
+@import "variables";
 
-    &__parrafo{
-        font-size: 25px;
-        color: $colorVerde;
-        text-align: center;
-        &--rojo{
-            color:red;
-        }
-        &--uppercase{
-            text-transform: uppercase;
-        }
+
+.container__carillas{
+    margin-bottom: 5rem;
+    .carillas__texto{
+        font-size: $font-size;
+        color: gray;
+        font-family: $fuente;
+          .carillas__texto--titulo{
+              font-size: $font-size + 0.5;
+              color: $colorAzul;
+          }
     }
-   
 }
 
 
