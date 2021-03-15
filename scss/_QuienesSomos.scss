@@ -1,0 +1,35 @@
+@import "variables";
+@import "estetica";
+
+
+.carousel{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.historia{
+    .historia__Titulo{        
+            color:$colorAzul;
+            font-size: 2rem + 1rem;
+            font-family: "libre Franklin", sans-serif;
+            border-bottom:solid 3px $colorAzul;            
+            margin:2em 0;
+    }
+    .historia__texto{         
+         color: gray;
+        font-size: 1.5rem;
+        text-align: left;
+        margin-bottom: 2em;
+    }
+}
+
+    
+
+.quienesSomos__contenido{
+    @extend .ortoInvCont;
+
+        .quienesSomos__texto{
+            @extend .ortoInv;
+                }
+}
+

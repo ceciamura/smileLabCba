@@ -1,0 +1,727 @@
+.titulosPaginas {
+  color: #31326f;
+  font-size: 4rem;
+  font-family: "libre Franklin", sans-serif;
+  border-bottom: solid 3px #31326f;
+  margin: 1.5em;
+  margin-bottom: 2em; }
+
+.estetica .subtitulo__estetica {
+  color: #31326f;
+  font-size: 3rem;
+  margin: -1em 5em 2em;
+  text-align: center; }
+
+.estetica .subtitulo__estetica--texto {
+  color: gray;
+  font-size: 1.5rem;
+  text-align: left; }
+
+.tratamientos .tratamientos__estetica {
+  color: #31326f;
+  font-size: 3rem;
+  font-family: "libre Franklin", sans-serif;
+  border-bottom: solid 3px #31326f;
+  margin: 1.5em;
+  margin-bottom: 2em; }
+
+.card {
+  margin: 1em;
+  box-shadow: 5px 5px 5px gray;
+  animation-duration: 3s;
+  animation-delay: 1s; }
+  .card .card-title {
+    color: #31326f;
+    font-weight: bold; }
+  .card .card-text {
+    color: #31326f;
+    font-weight: 500; }
+
+@media only screen and (max-width: 800px) {
+  .estetica .subtitulo__estetica {
+    color: #31326f;
+    font-size: 1.8rem;
+    text-align: left;
+    margin-left: 1em; }
+  .estetica .subtitulo__estetica--texto {
+    color: gray;
+    font-size: 1rem;
+    text-align: left; }
+  .tratamientos__estetica {
+    color: #31326f;
+    font-size: 2rem;
+    font-family: "libre Franklin", sans-serif;
+    border-bottom: solid 3px #31326f;
+    margin: 1em;
+    margin-bottom: 2em; }
+  .card {
+    margin: 0.3em;
+    box-shadow: 5px 5px 5px gray;
+    animation-duration: 3s;
+    animation-delay: 1s; }
+    .card .card-title {
+      color: #31326f;
+      font-weight: bold; }
+    .card .card-text {
+      color: #31326f;
+      font-weight: 500; } }
+
+.carousel {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.historia .historia__Titulo {
+  color: #31326f;
+  font-size: 3rem;
+  font-family: "libre Franklin", sans-serif;
+  border-bottom: solid 3px #31326f;
+  margin: 2em 0; }
+
+.historia .historia__texto {
+  color: gray;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 2em; }
+
+.diseno {
+  border: 3px solid red;
+  height: auto; }
+  .diseno__parrafo {
+    font-size: 25px;
+    color: #5fafab;
+    text-align: center; }
+    .diseno__parrafo--rojo {
+      color: red; }
+    .diseno__parrafo--uppercase {
+      text-transform: uppercase; }
+
+.titulosPaginas {
+  color: #31326f;
+  font-size: 4rem;
+  font-family: "libre Franklin", sans-serif;
+  border-bottom: solid 3px #31326f;
+  margin: 1.5em;
+  margin-bottom: 2em; }
+
+.estetica .subtitulo__estetica {
+  color: #31326f;
+  font-size: 3rem;
+  margin: -1em 5em 2em;
+  text-align: center; }
+
+.estetica .subtitulo__estetica--texto {
+  color: gray;
+  font-size: 1.5rem;
+  text-align: left; }
+
+.tratamientos .tratamientos__estetica {
+  color: #31326f;
+  font-size: 3rem;
+  font-family: "libre Franklin", sans-serif;
+  border-bottom: solid 3px #31326f;
+  margin: 1.5em;
+  margin-bottom: 2em; }
+
+.card {
+  margin: 1em;
+  box-shadow: 5px 5px 5px gray;
+  animation-duration: 3s;
+  animation-delay: 1s; }
+  .card .card-title {
+    color: #31326f;
+    font-weight: bold; }
+  .card .card-text {
+    color: #31326f;
+    font-weight: 500; }
+
+@media only screen and (max-width: 800px) {
+  .estetica .subtitulo__estetica {
+    color: #31326f;
+    font-size: 1.8rem;
+    text-align: left;
+    margin-left: 1em; }
+  .estetica .subtitulo__estetica--texto {
+    color: gray;
+    font-size: 1rem;
+    text-align: left; }
+  .tratamientos__estetica {
+    color: #31326f;
+    font-size: 2rem;
+    font-family: "libre Franklin", sans-serif;
+    border-bottom: solid 3px #31326f;
+    margin: 1em;
+    margin-bottom: 2em; }
+  .card {
+    margin: 0.3em;
+    box-shadow: 5px 5px 5px gray;
+    animation-duration: 3s;
+    animation-delay: 1s; }
+    .card .card-title {
+      color: #31326f;
+      font-weight: bold; }
+    .card .card-text {
+      color: #31326f;
+      font-weight: 500; } }
+
+/* prueba de Css, colore y estilos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*index*/
+.foto {
+  width: 100%;
+  margin: 0px 0px -68px;
+  position: relative;
+  display: flex;
+  max-width: 100%;
+  object-fit: cover;
+  /* opacity: 0.6;  decidir*/ }
+
+.titulo {
+  color: #31326f;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 4rem;
+  position: absolute;
+  top: 70px;
+  left: 40px;
+  z-index: 10; }
+
+.subtitulo {
+  color: #31326f;
+  text-align: left;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 3rem;
+  position: absolute;
+  z-index: 9;
+  top: 150px;
+  left: 70px; }
+
+.lema {
+  color: #cc8b8b;
+  text-align: left;
+  font-family: "libre Franklin", sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 8;
+  top: 250px;
+  left: 70px; }
+
+.logo {
+  position: absolute;
+  z-index: 6;
+  margin-left: 40em;
+  margin-top: 4em; }
+
+@media only screen and (max-width: 920px) {
+  .lema {
+    top: 150px;
+    font-size: 1rem;
+    left: 50px; }
+  .subtitulo {
+    top: 110px;
+    left: 50px;
+    font-size: 1.2rem; }
+  .titulo {
+    font-size: 1.5rem;
+    left: 50px; } }
+
+.index {
+  background-image: linear-gradient(to right, #ffdada, #c1fffc); }
+
+.titulosPaginas {
+  color: #31326f;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin: 30px; }
+
+/*--nav------->*/
+.navbar a {
+  font-size: 1.5rem;
+  font-family: "libre franklin", sans-serif;
+  padding-right: 8em;
+  color: gray; }
+
+.navbar li a:hover {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+  background-color: transparent;
+  color: white; }
+
+/*contendor turno index*/
+.turnoContenedor {
+  max-width: 100%;
+  height: auto;
+  background-color: #5fafab;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .turnoContenedor article {
+    padding-top: 2em;
+    width: 30%;
+    height: auto;
+    color: white;
+    font-family: 'montserrat' Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    text-align: left;
+    text-transform: uppercase; }
+
+#textocovid {
+  color: gray;
+  text-transform: capitalize;
+  font-size: 1.2rem; }
+
+.turno {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.button {
+  background-color: #5fafab;
+  color: white;
+  border: 2px solid white;
+  padding: 0.5em;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+  .button:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    background-color: transparent;
+    border: 2px solid white; }
+
+/*iconos index*/
+.iconosContenedor {
+  background-image: url(../imagenes/cover3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-position-y: -100px;
+  opacity: .9; }
+
+.tituloIconos {
+  font-family: "libre Franklin", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  line-height: 0.8;
+  /* margin:2rem; */
+  margin-bottom: 3em;
+  margin-top: 3em;
+  max-width: 100%; }
+
+.iconos__texto {
+  font-family: "libre Franklin", sans-serif;
+  font-size: 1.4rem;
+  color: white;
+  line-height: 1em;
+  margin-left: 0.8em;
+  margin-bottom: 4em; }
+
+.iconos__texto--titulo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-left: 0.6em; }
+
+.iconos--info {
+  margin-left: 0.5em; }
+
+.iconos--equipo,
+.iconos--financiacion {
+  margin-left: 0.4em; }
+
+.iconos__texto--estetica {
+  margin-left: 3em; }
+
+.iconos--diente {
+  margin-left: .5em; }
+
+.iconos__texto--info,
+.iconos__texto--financiacion,
+.iconos__texto--equipo {
+  margin-left: 2em; }
+
+.iconos {
+  color: white;
+  padding-left: 1em;
+  font-size: 5rem;
+  margin-bottom: 1.5rem; }
+
+.boton {
+  grid-row: 4/5;
+  grid-column: 1/-1;
+  display: grid;
+  justify-items: center;
+  margin-bottom: 3rem; }
+
+.buttonIcono {
+  background-color: rgba(128, 128, 128, 0);
+  color: white;
+  border: 2px solid white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem; }
+
+.buttonIcono:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2); }
+
+@media only screen and (max-width: 800px) {
+  .navbar a {
+    font-size: 1rem; }
+  .foto {
+    margin-bottom: -51px; }
+  /*  .iconos{
+        margin: 0.2em 1em;
+        padding-left:1em;
+} */
+  .iconosContenedor {
+    padding-bottom: 7em;
+    /*  margin-bottom: -6.3em; */ }
+  .iconos__texto {
+    font-size: 1.2rem; }
+  /*  .iconos__texto--estetica,
+    .iconos__texto--equipo,
+    .iconos__texto--financiacion,
+    .iconos__texto--info{
+        /* margin-left: 0.6em; */
+  .contenedorTestimonio {
+    display: none; }
+  .titulo {
+    top: 20px;
+    left: 30px;
+    font-size: 0.8rem;
+    font-weight: bold; }
+  .subtitulo {
+    top: 35px;
+    left: 30px;
+    font-size: 0.8rem;
+    font-weight: bold; }
+  .lema {
+    top: 55px;
+    left: 25px;
+    font-size: 0.7rem;
+    font-weight: bold; }
+  .logo {
+    left: -35em;
+    top: 0.5em;
+    width: 5%; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .iconos, .iconos__texto--titulo {
+    margin-left: -0.5em; }
+  .iconos__texto--titulo {
+    font-size: 1.5rem;
+    margin-left: 0.5em; } }
+
+/*testimonios index*/
+.testimonios {
+  margin: 3em auto; }
+  .testimonios .row {
+    margin: 2em; }
+  .testimonios .testimonios__titulo {
+    text-align: center;
+    font-weight: bold;
+    color: #31326f;
+    padding-bottom: 10px;
+    text-transform: uppercase; }
+    .testimonios .testimonios__titulo::after {
+      content: "";
+      background-color: #31326f;
+      display: block;
+      height: 3px;
+      width: 30%;
+      margin: 0.7em auto 0.3em; }
+
+.testimonio {
+  margin: 5em auto; }
+  .testimonio .testimonio__profile {
+    background-color: #efefef;
+    padding: 3em 2em;
+    /*  .testimonio__profile--tercero{
+        padding-bottom:2em
+    } */ }
+    .testimonio .testimonio__profile:hover {
+      box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+      transition: 0.5s; }
+    .testimonio .testimonio__profile .testimonio__foto {
+      top: -4em;
+      border: 10px solid white;
+      margin-bottom: 1em;
+      width: 8em;
+      height: 8em;
+      border-radius: 50%;
+      margin-top: -6em; }
+    .testimonio .testimonio__profile .testimonio__paciente {
+      font-size: 1.5rem;
+      margin-top: 1em;
+      padding-bottom: 0.5em;
+      color: #31326f; }
+    .testimonio .testimonio__profile .testimonio__texto {
+      font-size: 1.5rem;
+      line-height: 30px;
+      color: gray;
+      font-size: "Libre Franklin", sans-serif; }
+      .testimonio .testimonio__profile .testimonio__texto::before {
+        content: '\201C';
+        font-size: 50px;
+        position: relative;
+        color: #5fafab;
+        line-height: 20px;
+        bottom: -15px;
+        right: 5px; }
+      .testimonio .testimonio__profile .testimonio__texto::after {
+        content: '\201C';
+        font-size: 50px;
+        position: relative;
+        color: #5fafab;
+        line-height: 10px;
+        bottom: -15px;
+        left: 5px; }
+
+span {
+  font-size: 1rem;
+  color: #333; }
+
+.fotoPractica {
+  width: 200px;
+  border-radius: 50%;
+  align-self: end;
+  justify-self: center;
+  margin-right: 1em;
+  margin-bottom: 2em; }
+
+.contactanos {
+  color: #cc8b8b;
+  font-size: 20px;
+  text-transform: capitalize; }
+
+.disenoDigital {
+  color: #5fafab;
+  font-size: 20px;
+  text-transform: capitalize; }
+
+/*disenio sonrisa*/
+.diseno article {
+  width: 40%;
+  margin-left: 30px;
+  display: inline-block;
+  padding: 40px; }
+
+.disenoImagen {
+  width: 500px;
+  margin-left: 50px;
+  margin-bottom: 75px;
+  border: 3px #31326f solid;
+  border-radius: 10px; }
+
+/*ortodoncia*/
+/*ortodoncia*/
+.ortoInvCont, .quienesSomos__contenido {
+  box-shadow: 5px 5px 5px grey;
+  margin-bottom: 3em;
+  animation-duration: 3s;
+  animation-delay: 1s; }
+
+.ortoInv, .quienesSomos__contenido .quienesSomos__texto,
+.ortoBrackets1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: #31326f; }
+
+.encabezadoOrto > p {
+  color: grey;
+  font-family: "libre-Franklin", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1em 4em;
+  margin-bottom: 3em;
+  margin-top: 2em; }
+
+.titulosPaginas {
+  color: #31326f;
+  font-size: 4rem;
+  font-family: "libre Franklin", sans-serif;
+  border-bottom: solid 3px #31326f;
+  margin: 1.5em;
+  margin-bottom: 2em; }
+
+/*quienes somos*/
+.quienesSomos article {
+  width: 40%;
+  margin-left: 30px;
+  display: inline-block;
+  padding: 40px; }
+
+.quienesSomosImagen {
+  width: 500px;
+  margin-left: 50px;
+  border: 3px #31326f solid;
+  border-radius: 10px;
+  animation-duration: 2s;
+  animation-name: imagen-efecto; }
+
+@keyframes imagen-efecto {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*formulario contactos*/
+.titulosContacto, .subtituloContacto {
+  color: #31326f;
+  font-family: "libre Franklin", sans-serif;
+  font-size: 3em;
+  letter-spacing: 7px;
+  text-align: center;
+  margin-top: 2em; }
+
+.subtituloContacto {
+  font-size: 1.5em; }
+
+.contacto {
+  max-width: 100%;
+  max-height: 100%; }
+
+form {
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: rgba(49, 50, 111, 0.2);
+  width: 40vw;
+  border: rgba(49, 50, 111, 0.2) solid 3px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px 20px;
+  margin-left: 3em;
+  margin-top: 10vh;
+  box-shadow: 5px 5px 5px grey;
+  margin-bottom: 2em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr, 1fr, 3fr, 1fr);
+  grid-gap: 10px; }
+
+form h4 {
+  font-size: 30px;
+  color: #31326f;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  font-family: "libre Franklin", sans-serif;
+  margin: 15px;
+  grid-column: 1/-1; }
+
+.botonFormulario {
+  background-color: transparent;
+  color: #31326f;
+  border: 2px solid #31326f;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1vmax;
+  margin: 0px 10px;
+  grid-row: 4/5; }
+
+.botonFormulario:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); }
+
+#comentarios {
+  grid-column: 1/-1;
+  grid-row: 3/4;
+  min-width: 20vw; }
+
+#Nombre,
+#Email,
+#comentarios {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px; }
+
+.mapa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.mapa1 {
+  max-width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.redesContacto {
+  max-width: 100%;
+  height: 200px;
+  background-color: #5fafab;
+  font-size: 4em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em; }
+
+.redesContacto i {
+  padding: 2em; }
+
+.animate__fadeInDown {
+  animation-delay: 2s;
+  animation-timing-function: ease-in; }
+
+.infoContacto {
+  font-size: 25px;
+  font-family: "libre-franklin", sans-serif; }
+
+.infoContacto a:link {
+  color: black; }
+
+.horarios li {
+  list-style-type: none;
+  line-height: 1.5em; }
+
+/*footer*/
+footer {
+  background-color: rgba(128, 128, 128, 0.5);
+  line-height: 24px; }
+
+footer .footerDisenio {
+  background-color: rgba(128, 128, 128, 0.9);
+  padding: 16px;
+  padding-top: 48px;
+  clip-path: polygon(0% 5%, 15% 0%, 100% 10%, 100% 100%, 0% 100%); }
+
+.redesSociales p {
+  margin-bottom: 0.5em; }
+
+.redesSociales i {
+  font-size: 1.5rem;
+  padding: 0.4em;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: 100%; }
+
+footer p {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "libre franklin" sans-serif; }
+
+footer {
+  color: white;
+  font-size: 1.5em;
+  font-family: "libre Franklin"; }
+
+a:link {
+  text-decoration: none;
+  color: white; }
