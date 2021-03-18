@@ -1,0 +1,54 @@
+.wrapper{
+    position:relative;
+   /*  top:50%; */
+    /* transform: translatex(-30%); */
+    width: 100%;
+    padding: 0 20px;
+    /* margin: 3em -35em; */
+    
+   
+    .form__contacto{
+        max-width: 550px;
+        margin: 0 auto;
+        background: rgba(0, 0, 0, 0.2);
+        padding: 30px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 10px rgba(0,0,0,0.13);
+        .input__fields{
+            display: flex;
+            flex-direction: column;
+            margin-right: 4px;
+        }
+        .btn{
+            background: $colorAzul;
+            text-align: center;
+            padding: 15px;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+input,
+.mensaje textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid $colorAzul;
+    padding: 10px;
+    color: $colorAzul;
+    width: 100%;
+    font-size: $font-size;
+}
+.mensaje textarea{
+    height: 212px;
+}
+::-webkit-input-placeholder{
+    color:$colorAzul;
+}
+

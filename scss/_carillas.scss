@@ -7,9 +7,13 @@
         font-size: $font-size;
         color: gray;
         font-family: $fuente;
+        margin-bottom: 2em;
+
           .carillas__texto--titulo{
               font-size: $font-size + 0.5;
               color: $colorAzul;
+              border-bottom: solid 3px $colorAzul;
+              
           }
     }
 }
