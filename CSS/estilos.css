@@ -49,7 +49,7 @@
     text-align: left; }
   .tratamientos__estetica {
     color: #31326f;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: "libre Franklin", sans-serif;
     border-bottom: solid 3px #31326f;
     margin: 1em;
@@ -147,7 +147,7 @@
     text-align: left; }
   .tratamientos__estetica {
     color: #31326f;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: "libre Franklin", sans-serif;
     border-bottom: solid 3px #31326f;
     margin: 1em;
@@ -215,7 +215,7 @@
     text-align: left; }
   .tratamientos__estetica {
     color: #31326f;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: "libre Franklin", sans-serif;
     border-bottom: solid 3px #31326f;
     margin: 1em;
@@ -336,7 +336,7 @@ input,
 /*index*/
 .foto {
   width: 100%;
-  margin: 0px 0px -68px;
+  margin: 0px 0px -60px;
   position: relative;
   display: flex;
   max-width: 100%;
@@ -403,13 +403,16 @@ input,
 
 /*--nav------->*/
 .navbar a {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: "libre franklin", sans-serif;
-  padding-right: 6em;
+  /* padding-right: 6em ; */
   color: gray; }
 
+.navbar .navbar-brand {
+  padding-right: 8em; }
+
 .navbar li {
-  padding-right: 4em; }
+  /*  padding-right: 4em; */ }
   .navbar li a:hover {
     -webkit-transform: scale(1.03);
     -ms-transform: scale(1.03);
@@ -548,20 +551,10 @@ input,
     font-size: 1rem; }
   .foto {
     margin-bottom: -51px; }
-  /*  .iconos{
-        margin: 0.2em 1em;
-        padding-left:1em;
-} */
   .iconosContenedor {
-    padding-bottom: 7em;
-    /*  margin-bottom: -6.3em; */ }
+    padding-bottom: 7em; }
   .iconos__texto {
     font-size: 1.2rem; }
-  /*  .iconos__texto--estetica,
-    .iconos__texto--equipo,
-    .iconos__texto--financiacion,
-    .iconos__texto--info{
-        /* margin-left: 0.6em; */
   .contenedorTestimonio {
     display: none; }
   .titulo {
@@ -758,6 +751,17 @@ span {
 
 .redesContacto i {
   padding: 2em; }
+
+@media only screen and (max-width: 800px) {
+  .redesContacto i {
+    padding: 0.5rem; }
+  .titulo-estetica {
+    font-size: 2rem;
+    margin-bottom: 2em;
+    margin-left: 0.5; }
+  .tratamientos .tratamientos__estetica {
+    font-size: 2rem;
+    margin-left: 0.5; } }
 
 .animate__fadeInDown {
   animation-delay: 2s;

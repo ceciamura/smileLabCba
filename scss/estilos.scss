@@ -16,7 +16,7 @@
 
 .foto{
     width:100%;
-    margin:0px 0px -68px;
+    margin:0px 0px -60px;
     position: relative;
     display: flex;
     max-width: 100%;
@@ -97,14 +97,17 @@
 /*--nav------->*/
 .navbar {
 	a {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		font-family: "libre franklin", sans-serif;
-		padding-right: 6em ;
+		/* padding-right: 6em ; */
 		color:gray;        
 	}
+    .navbar-brand{
+        padding-right: 8em;
+    }
     
 	li {
-        padding-right: 4em;
+       /*  padding-right: 4em; */
 		a {
 			&:hover {
 				-webkit-transform: scale(1.03);
@@ -274,26 +277,16 @@
     .foto{
         margin-bottom:-51px;
     }
-   /*  .iconos{
-        margin: 0.2em 1em;
-        padding-left:1em;
-} */
+  
     .iconosContenedor{
         padding-bottom: 7em;
-       /*  margin-bottom: -6.3em; */
+
     }
     .iconos__texto{
         font-size: 1.2rem;
        
-    }
-   /*  .iconos__texto--estetica,
-    .iconos__texto--equipo,
-    .iconos__texto--financiacion,
-    .iconos__texto--info{
-        /* margin-left: 0.6em; */
+    } 
     
-    
-
     .contenedorTestimonio{
         display: none;
     }
@@ -320,9 +313,11 @@
         left:-35em;   
         top:0.5em; 
         width: 5%;
+    }
+    
 
     }
-    }
+
 
     @media only screen  and (  min-width: 768px)and (max-width: 1024px){
         .iconos, .iconos__texto--titulo{
@@ -545,6 +540,27 @@ span {
      padding:2em;
      
  }
+
+ @media only screen  and (max-width: 800px){
+   
+    .redesContacto i{
+        padding: 0.5rem;       
+        
+    }
+
+    .titulo-estetica{       
+        font-size:2rem;     
+        margin-bottom:2em; 
+        margin-left: 0.5;      
+        }
+
+        .tratamientos{
+            .tratamientos__estetica{
+                font-size: 2rem;
+                margin-left: 0.5;
+            }
+        }
+}
 
 .animate__fadeInDown{
     animation-delay: 2s;
