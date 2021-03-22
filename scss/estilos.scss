@@ -16,7 +16,7 @@
 
 .foto{
     width:100%;
-    margin:0px 0px -60px;
+    margin:0px 0px -62px;
     position: relative;
     display: flex;
     max-width: 100%;
@@ -31,7 +31,7 @@
     font-size: 4rem;
     position: absolute;
     top:70px;
-    left: 40px;
+    left: 69px;
     z-index: 10;
     
     
@@ -66,7 +66,7 @@
     margin-top:4em;
 }
 
-@media only screen  and (max-width: 920px){
+/* @media only screen  and (max-width: 920px){
           .lema{ top:150px;
                 font-size:1rem;
                 left:50px;
@@ -80,7 +80,7 @@
                 left:50px;
             }
 }
-
+ */
  
 
 .index{
@@ -320,6 +320,7 @@
 
 
     @media only screen  and (  min-width: 768px)and (max-width: 1024px){
+
         .iconos, .iconos__texto--titulo{
             margin-left:-0.5em;           
 
@@ -328,6 +329,32 @@
             font-size: 1.5rem;
             margin-left: 0.5em;
         }
+        .titulo{
+            top:40px;
+            left:30px;
+            font-size:1.5rem;
+            font-weight: bold;        
+        }
+        .subtitulo{
+            top:70px;
+            left:30px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            }
+        .lema{
+            top:105px;
+            left:30px;
+            font-size: 1.3rem;
+            font-weight: bold;
+    
+        }
+        .logo{
+            margin-top:30px;
+            left:-21em;   
+            top:0.5em; 
+            width: 5%;
+        }
+        
 
     }
  /*testimonios index*/
@@ -578,6 +605,22 @@ span {
      padding: 0;
      line-height: 1.3em;
     
+ }
+
+ .escribinos{     
+     .escribinos__texto{
+         @extend.Visita__titulo;
+     }
+     .escribinos__boton{    
+         display: block;     
+         @extend.buttonIcono;
+        margin-right: auto;
+        margin-left: auto;
+        color:$colorAzul;
+        border:$colorAzul solid 3px;  
+   
+         
+     }
  }
 /*footer*/
 

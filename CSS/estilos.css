@@ -307,14 +307,14 @@ input,
 ::-webkit-input-placeholder {
   color: #31326f; }
 
-.subtituloContacto, .Visita__titulo {
+.subtituloContacto, .Visita__titulo, .escribinos .escribinos__texto {
   color: #31326f;
   font-size: 2rem;
   font-family: "Libre Franklin", sans-serif;
   text-align: center;
   margin-bottom: 2em; }
 
-.Visita__titulo {
+.Visita__titulo, .escribinos .escribinos__texto {
   margin: 1em;
   font-size: 2.5rem;
   font-weight: bold; }
@@ -336,7 +336,7 @@ input,
 /*index*/
 .foto {
   width: 100%;
-  margin: 0px 0px -60px;
+  margin: 0px 0px -62px;
   position: relative;
   display: flex;
   max-width: 100%;
@@ -349,7 +349,7 @@ input,
   font-size: 4rem;
   position: absolute;
   top: 70px;
-  left: 40px;
+  left: 69px;
   z-index: 10; }
 
 .subtitulo {
@@ -379,19 +379,21 @@ input,
   margin-left: 40em;
   margin-top: 4em; }
 
-@media only screen and (max-width: 920px) {
-  .lema {
-    top: 150px;
-    font-size: 1rem;
-    left: 50px; }
-  .subtitulo {
-    top: 110px;
-    left: 50px;
-    font-size: 1.2rem; }
-  .titulo {
-    font-size: 1.5rem;
-    left: 50px; } }
-
+/* @media only screen  and (max-width: 920px){
+          .lema{ top:150px;
+                font-size:1rem;
+                left:50px;
+        }
+          .subtitulo{
+              top:110px;
+              left:50px;
+              font-size:1.2rem;}
+            .titulo{
+                font-size:1.5rem;
+                left:50px;
+            }
+}
+ */
 .index {
   background-image: linear-gradient(to right, #ffdada, #c1fffc); }
 
@@ -533,7 +535,7 @@ input,
   justify-items: center;
   margin-bottom: 3rem; }
 
-.buttonIcono {
+.buttonIcono, .escribinos .escribinos__boton {
   background-color: rgba(128, 128, 128, 0);
   color: white;
   border: 2px solid white;
@@ -541,7 +543,7 @@ input,
   border-radius: 5px;
   font-size: 1.5rem; }
 
-.buttonIcono:hover {
+.buttonIcono:hover, .escribinos .escribinos__boton:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2); }
@@ -582,7 +584,27 @@ input,
     margin-left: -0.5em; }
   .iconos__texto--titulo {
     font-size: 1.5rem;
-    margin-left: 0.5em; } }
+    margin-left: 0.5em; }
+  .titulo {
+    top: 40px;
+    left: 30px;
+    font-size: 1.5rem;
+    font-weight: bold; }
+  .subtitulo {
+    top: 70px;
+    left: 30px;
+    font-size: 1.5rem;
+    font-weight: bold; }
+  .lema {
+    top: 105px;
+    left: 30px;
+    font-size: 1.3rem;
+    font-weight: bold; }
+  .logo {
+    margin-top: 30px;
+    left: -21em;
+    top: 0.5em;
+    width: 5%; } }
 
 /*testimonios index*/
 .testimonios {
@@ -775,6 +797,13 @@ span {
   margin: 0;
   padding: 0;
   line-height: 1.3em; }
+
+.escribinos .escribinos__boton {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  color: #31326f;
+  border: #31326f solid 3px; }
 
 /*footer*/
 footer {
