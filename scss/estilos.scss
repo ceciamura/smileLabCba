@@ -100,9 +100,11 @@
 		font-size: 1.5rem;
 		font-family: "libre franklin", sans-serif;
 		padding-right: 6em ;
-		color:gray;
+		color:gray;        
 	}
+    
 	li {
+        padding-right: 4em;
 		a {
 			&:hover {
 				-webkit-transform: scale(1.03);
@@ -114,6 +116,7 @@
 		}
 	}
 }
+
 
 /*contendor turno index*/
 
