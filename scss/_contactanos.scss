@@ -20,6 +20,7 @@
         flex-direction: column;
         box-shadow: 0 0 10px rgba(0,0,0,0.13);
         border: solid white 10px;   
+        margin-bottom: 2em;
          &:hover {
             transform: scale(1.01);
             box-shadow: 0 0 10px rgba(0,0,0,0.53) ;
@@ -41,53 +42,60 @@
             text-transform: uppercase;
         }
     }
-}
-
-.infoContacto {
-    width: 100%;
-    background-color:rgba(0, 0, 0, 0.05);
-    border: solid white 10px;
-    padding:2em;
-    color: $colorAzul;
-    font-family: $fuente;
-    font-size: $font-size;
-    box-shadow: 0 0 10px rgba(0,0,0,0.13);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    border-radius: 5px;
-    line-height: 3;  
-    &:hover {
-        transform: scale(1.01);
-        box-shadow: 0 0 10px rgba(0,0,0,0.53) ;
-    }  
-    .parrafo__contacto{
-        font-size: 2rem;
-        line-height: 1.5;
-        text-align: center;
-        margin: 1em 0;
-        font-weight: bold;
+    .infoContacto {
+        width: 100%;;
+        margin-left:auto;
+        margin-right: auto;
+        background-color:rgba(0, 0, 0, 0.05);
+        border: solid white 10px;
+        padding:1.8em;
+        color: $colorAzul;
+        font-family: $fuente;
+        font-size: $font-size;
+        box-shadow: 0 0 10px rgba(0,0,0,0.13);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        border-radius: 5px;
+        line-height: 3;  
+        &:hover {
+            transform: scale(1.01);
+            box-shadow: 0 0 10px rgba(0,0,0,0.53) ;
+        }  
+        .parrafo__contacto{
+            font-size: 2rem;
+            line-height: 1.5;
+            text-align: center;
+            margin: 1em 0;
+            font-weight: bold;
+        }
+        
+    }
+    input,
+    .mensaje textarea{
+        margin: 10px 0;
+        background: transparent;
+        border: 0;
+        border-bottom: 2px solid $colorAzul;
+        padding: 10px;
+        color: $colorAzul;
+        width: 100%;
+        font-size: $font-size;
+    }
+    .mensaje textarea{
+        height: 212px;
+    }
+    ::-webkit-input-placeholder{
+        color:$colorAzul;
     }
     
+    .horarios ul{
+        list-style-type: none;
+        padding:0px;
+    }
 }
-input,
-.mensaje textarea{
-    margin: 10px 0;
-    background: transparent;
-    border: 0;
-    border-bottom: 2px solid $colorAzul;
-    padding: 10px;
-    color: $colorAzul;
-    width: 100%;
-    font-size: $font-size;
-}
-.mensaje textarea{
-    height: 212px;
-}
-::-webkit-input-placeholder{
-    color:$colorAzul;
-}
+
 
 .titulo__contacto{
     @extend.titulosPaginas;
@@ -116,4 +124,24 @@ input,
     text-align: center;
     border-radius: 0.5px;
 }
+
+    @media only screen  and (  max-width: 800px){
+        .telefono{
+            line-height:1.5;             
+        }
+        .horarios{
+            font-size: 1.1rem;            
+        }
+        .horarios__titulo{
+            font-size: 1.4rem;
+           
+        }
+        .wrapper .infoContacto{
+            padding: 0.5em;       
+          
+        }     
+        
+    
+    }
+   
  
