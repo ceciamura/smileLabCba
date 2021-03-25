@@ -5,6 +5,8 @@
 @import"variables";
 @import"contactanos";
 
+
+
 /* prueba de Css, colore y estilos*/
 *{
     margin: 0;
@@ -253,108 +255,8 @@
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
-@media only screen  and (  max-width: 800px){
-    .navbar a{
-        font-size: 1rem;
-    }
-    .foto{
-        margin-bottom:-51px;
-    }
+
   
-    .iconosContenedor{
-        padding-bottom: 7em;
-
-    }
-    .contenedorTestimonio{
-        display: none;
-    }
-    .titulo{
-        top:20px;
-        left:30px;
-        font-size:0.8rem;
-        font-weight: bold;        
-    }
-    .subtitulo{
-        top:35px;
-        left:30px;
-        font-size: 0.8rem;
-        font-weight: bold;
-        }
-    .lema{
-        top:55px;
-        left:25px;
-        font-size: 0.7rem;
-        font-weight: bold;
-
-    }
-    .logo{
-        left:-35em;   
-        top:0.5em; 
-        width: 5%;
-    }
-    .tituloIconos{
-        line-height: 1.5;
-        margin-left: 0.5em;
-    }
-   
-    .iconos__texto--titulo,
-    .iconos__texto,
-    .boton{      
-        text-align: center;
-        margin-left: 0.5em;
-    }
-    .contenedorcito{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .iconos{
-        margin-right: 1em;
-    }
-    
-}
-
-
-    @media only screen  and (  min-width: 768px)and (max-width: 1024px){
-
-        .iconos, .iconos__texto--titulo{
-            margin-left:-0.5em;           
-
-        }
-        .iconos__texto--titulo{
-            font-size: 1.5rem;
-            margin-left: 0.5em;
-
-        }
-        .titulo{
-            top:40px;
-            left:30px;
-            font-size:1.5rem;
-            font-weight: bold;        
-        }
-        .subtitulo{
-            top:70px;
-            left:30px;
-            font-size: 1.5rem;
-            font-weight: bold;
-            }
-        .lema{
-            top:105px;
-            left:30px;
-            font-size: 1.3rem;
-            font-weight: bold;
-    
-        }
-        .logo{
-            margin-top:30px;
-            left:-21em;   
-            top:0.5em; 
-            width: 5%;
-        }    
-        
-
-    }
  /*testimonios index*/
  .testimonios {
 	margin: 3em auto;
@@ -566,26 +468,7 @@ span {
      
  }
 
- @media only screen  and (max-width: 800px){
-   
-    .redesContacto i{
-        padding: 0.5rem;       
-        
-    }
-
-    .titulo-estetica{       
-        font-size:2rem;     
-        margin-bottom:2em; 
-        margin-left: 0.5;      
-        }
-
-        .tratamientos{
-            .tratamientos__estetica{
-                font-size: 2rem;
-                margin-left: 0.5;
-            }
-        }
-}
+ 
 
 .animate__fadeInDown{
     animation-delay: 2s;
@@ -621,6 +504,8 @@ span {
             box-shadow: 0 0 10px rgba(0,0,0,0.53);
         }
      }
+     
+    
  }
 /*footer*/
 
@@ -665,4 +550,172 @@ footer {
     text-decoration: none;
     color: white;
 }
+@media only screen  and (max-width: 800px){
+        
+    .navbar a{
+        font-size: 1rem;
+    }
+    .foto{
+        margin-bottom:-51px;
+    }
+  
+    .iconosContenedor{
+        padding-bottom: 7em;
 
+    }
+    .contenedorTestimonio{
+        display: none;
+    }
+    .titulo{
+        top:20px;
+        left:30px;
+        font-size:0.8rem;
+        font-weight: bold;        
+    }
+    .subtitulo{
+        top:35px;
+        left:30px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        }
+    .lema{
+        top:55px;
+        left:25px;
+        font-size: 0.7rem;
+        font-weight: bold;
+
+    }
+    .logo{
+        left:-35em;   
+        top:0.5em; 
+        width: 5%;
+
+    }
+    .tituloIconos{
+        line-height: 1.5;
+        margin-left: 0.5em;
+    }
+   
+    .iconos__texto--titulo,
+    .iconos__texto,
+    .boton{      
+        text-align: center;
+        margin-left: 0.5em;
+    }
+    .contenedorcito{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconos{
+        margin-right: 1em;
+    }      
+
+
+.redesContacto i{
+    padding: 0.5rem;       
+    
+}
+
+.titulo-estetica{       
+    font-size:2rem;     
+    margin-bottom:2em; 
+    margin-left: 0.5;      
+    }
+
+    .tratamientos{
+        .tratamientos__estetica{
+            font-size: 2rem;
+            margin-left: 0.5;
+        }
+    }
+.titulosPaginas{
+    margin-left:0;
+}
+.encabezadoOrto p{
+    padding:0;
+}
+}
+@media only screen  and (  min-width: 768px)and (max-width: 1024px){
+
+.iconos, .iconos__texto--titulo{
+    margin-left:-0.5em;           
+
+}
+.iconos__texto--titulo{
+    font-size: 1.5rem;
+    margin-left: 0.5em;
+
+}
+.titulo{
+    top:40px;
+    left:30px;
+    font-size:1.5rem;
+    font-weight: bold;        
+}
+.subtitulo{
+    top:70px;
+    left:30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+.lema{
+    top:105px;
+    left:30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+.logo{
+    margin-top:30px;
+    left:-21em;   
+    top:0.5em; 
+    width: 5%;
+}    
+
+}
+
+@media only screen  and (max-width: 320px){
+    .titulo,
+    .subtitulo,
+    .lema{
+        font-size: 0.7rem;
+        left:0.2rem;
+    }
+    .lema,
+    .subtitulo__estetica{
+        display: none;
+    }
+    .logo{
+        margin-left:42em;
+        margin-top:0.5em;
+    }
+    .navbar-brand{
+        font-size: 1rem;
+    }
+    .navbar-toggler{
+        margin-left:10em;
+        margin-top:-1.7em;
+    }
+    .titulosPaginas{
+        font-size: 3rem;
+        margin-left: 0;
+    }
+    .titulo-estetica{
+        font-size: 2.3rem;
+    }
+    .tratamientos__estetica{
+        margin: 0;
+        border-bottom:none;
+    }
+    .encabezadoOrto p{
+        text-align: left;
+        padding: 0.5em;
+    }
+    .redesContacto{
+        font-size: 2rem;
+    }
+    
+ }
+ 
