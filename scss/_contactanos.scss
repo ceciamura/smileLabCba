@@ -122,8 +122,44 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    
     border-radius: 0.5px;
 }
+/*iconos pagina contactanos*/
+.redesContacto{
+    max-width: 100%;
+    height: auto;
+    background-color: $colorVerde ;
+    font-size: 4em;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    a{ color:white;}
+    
+ }
+ .redesContacto i{
+     padding:2em;
+     
+ } 
+
+.animate__fadeInDown{
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+}
+.infoContacto a:link{
+    color:gray;
+}
+
+.horarios li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.3em;
+   
+}
+
+
 
     @media only screen  and (  max-width: 800px){
         .telefono{

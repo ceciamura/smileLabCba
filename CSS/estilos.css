@@ -329,6 +329,35 @@
   text-align: center;
   border-radius: 0.5px; }
 
+/*iconos pagina contactanos*/
+.redesContacto {
+  max-width: 100%;
+  height: auto;
+  background-color: #5fafab;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em; }
+  .redesContacto a {
+    color: white; }
+
+.redesContacto i {
+  padding: 2em; }
+
+.animate__fadeInDown {
+  animation-delay: 2s;
+  animation-timing-function: ease-in; }
+
+.infoContacto a:link {
+  color: gray; }
+
+.horarios li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em; }
+
 @media only screen and (max-width: 800px) {
   .telefono {
     line-height: 1.5; }
@@ -339,6 +368,29 @@
   .wrapper .infoContacto {
     padding: 0.5em; } }
 
+.ortoInvCont, .quienesSomos__contenido {
+  box-shadow: 5px 5px 5px grey;
+  margin-bottom: 3em;
+  animation-duration: 3s;
+  animation-delay: 1s; }
+
+.ortoInv, .quienesSomos__contenido .quienesSomos__texto,
+.ortoBrackets1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: #31326f; }
+
+.encabezadoOrto > p {
+  color: grey;
+  font-family: "libre-Franklin", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1em 4em;
+  margin-bottom: 3em;
+  margin-top: 2em; }
+
 /* prueba de Css, colore y estilos*/
 * {
   margin: 0;
@@ -348,7 +400,7 @@
 /*index*/
 .foto {
   width: 100%;
-  margin: 0px 0px -62px;
+  margin: 0px 0px -63px;
   position: relative;
   display: flex;
   max-width: 100%;
@@ -437,6 +489,9 @@
     text-align: left;
     text-transform: uppercase; }
 
+#exampleModalLabel {
+  color: #31326f; }
+
 #textocovid {
   color: gray;
   text-transform: capitalize;
@@ -461,7 +516,8 @@
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     background-color: transparent;
-    border: 2px solid white; }
+    border: 2px solid white;
+    color: white; }
 
 /*iconos index*/
 .iconosContenedor {
@@ -538,7 +594,8 @@
   border: 2px solid white;
   padding: 10px 15px;
   border-radius: 5px;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  margin-bottom: 2em; }
 
 .buttonIcono:hover, .escribinos .escribinos__boton:hover {
   -webkit-transform: scale(1.2);
@@ -611,63 +668,6 @@ span {
   font-size: 1rem;
   color: #333; }
 
-.fotoPractica {
-  width: 200px;
-  border-radius: 50%;
-  align-self: end;
-  justify-self: center;
-  margin-right: 1em;
-  margin-bottom: 2em; }
-
-.contactanos {
-  color: #cc8b8b;
-  font-size: 20px;
-  text-transform: capitalize; }
-
-.disenoDigital {
-  color: #5fafab;
-  font-size: 20px;
-  text-transform: capitalize; }
-
-/*disenio sonrisa*/
-.diseno article {
-  width: 40%;
-  margin-left: 30px;
-  display: inline-block;
-  padding: 40px; }
-
-.disenoImagen {
-  width: 500px;
-  margin-left: 50px;
-  margin-bottom: 75px;
-  border: 3px #31326f solid;
-  border-radius: 10px; }
-
-/*ortodoncia*/
-/*ortodoncia*/
-.ortoInvCont, .quienesSomos__contenido {
-  box-shadow: 5px 5px 5px grey;
-  margin-bottom: 3em;
-  animation-duration: 3s;
-  animation-delay: 1s; }
-
-.ortoInv, .quienesSomos__contenido .quienesSomos__texto,
-.ortoBrackets1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 1.3rem;
-  color: #31326f; }
-
-.encabezadoOrto > p {
-  color: grey;
-  font-family: "libre-Franklin", sans-serif;
-  font-size: 1.5rem;
-  text-align: center;
-  padding: 1em 4em;
-  margin-bottom: 3em;
-  margin-top: 2em; }
-
 .titulosPaginas, .titulo__contacto {
   color: #31326f;
   font-size: 4rem;
@@ -675,56 +675,6 @@ span {
   border-bottom: solid 3px #31326f;
   margin: 1.5em;
   margin-bottom: 2em; }
-
-/*quienes somos*/
-.quienesSomos article {
-  width: 40%;
-  margin-left: 30px;
-  display: inline-block;
-  padding: 40px; }
-
-.quienesSomosImagen {
-  width: 500px;
-  margin-left: 50px;
-  border: 3px #31326f solid;
-  border-radius: 10px;
-  animation-duration: 2s;
-  animation-name: imagen-efecto; }
-
-@keyframes imagen-efecto {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-/*formulario contactos*/
-.redesContacto {
-  max-width: 100%;
-  height: auto;
-  background-color: #5fafab;
-  font-size: 4em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2em; }
-  .redesContacto a {
-    color: white; }
-
-.redesContacto i {
-  padding: 2em; }
-
-.animate__fadeInDown {
-  animation-delay: 2s;
-  animation-timing-function: ease-in; }
-
-.infoContacto a:link {
-  color: black; }
-
-.horarios li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  line-height: 1.3em; }
 
 .escribinos .escribinos__boton {
   display: block;
@@ -854,7 +804,13 @@ a:link {
     margin-top: 30px;
     left: -21em;
     top: 0.5em;
-    width: 5%; } }
+    width: 5%; }
+  .foto {
+    margin-bottom: -51.5px; } }
+
+@media only screen and (max-width: 360px) {
+  .foto {
+    margin-bottom: -51.5px; } }
 
 @media only screen and (max-width: 320px) {
   .titulo,
@@ -868,6 +824,8 @@ a:link {
   .logo {
     margin-left: 42em;
     margin-top: 0.5em; }
+  .foto {
+    margin-bottom: -51.5px; }
   .navbar-brand {
     font-size: 1rem; }
   .navbar-toggler {
