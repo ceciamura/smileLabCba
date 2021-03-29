@@ -593,6 +593,48 @@ footer {
     .redesContacto{
         font-size: 2rem;
     }
+
+    .boton{
+        margin-left:0;
+    }
+    .buttonIcono:hover{
+        -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03);
+    }
     
  }
- 
+ @media only screen  and (  min-width: 1024px)and (max-width: 1278px){
+    .navbar a{
+        font-size: 1rem;
+    }
+    .foto{
+        margin-bottom:-56px;
+    }
+    
+    .carousel{
+        margin-left: 13em;
+    }
+    .buttonIcono{
+        margin-bottom: 6em;
+    }
+    .button--covid{
+        margin-top: 3.5em;
+    }
+    .titulo,
+    .subtitulo,
+    .lema{
+        font-size: 2rem;        
+        left:0.2rem;
+    }
+    .logo{
+        margin-left:43em;
+ }
+ .subtitulo{
+     top:2.5em;
+ }
+    .lema{
+        top:4em;
+    }
+
+}
