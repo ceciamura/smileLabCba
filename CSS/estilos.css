@@ -401,8 +401,7 @@
   position: relative;
   display: flex;
   max-width: 100%;
-  object-fit: cover;
-  /* opacity: 0.6;  decidir*/ }
+  object-fit: cover; }
 
 .titulo {
   color: #31326f;
@@ -579,8 +578,8 @@
   margin-bottom: 1.5rem; }
 
 .boton {
-  grid-row: 4/5;
-  grid-column: 1/-1;
+  /*  grid-row: 4/5;
+    grid-column: 1/-1; */
   display: grid;
   justify-items: center;
   margin-bottom: 3rem; }
