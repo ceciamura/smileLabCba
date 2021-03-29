@@ -55,7 +55,6 @@
     margin: 1em;
     margin-bottom: 2em; }
   .card {
-    margin: 0.3em;
     box-shadow: 5px 5px 5px gray;
     animation-duration: 3s;
     animation-delay: 1s; }
@@ -67,7 +66,7 @@
       font-weight: 500; } }
 
 .carousel {
-  width: 75%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto; }
 
@@ -153,7 +152,6 @@
     margin: 1em;
     margin-bottom: 2em; }
   .card {
-    margin: 0.3em;
     box-shadow: 5px 5px 5px gray;
     animation-duration: 3s;
     animation-delay: 1s; }
@@ -221,7 +219,6 @@
     margin: 1em;
     margin-bottom: 2em; }
   .card {
-    margin: 0.3em;
     box-shadow: 5px 5px 5px gray;
     animation-duration: 3s;
     animation-delay: 1s; }
@@ -781,7 +778,7 @@ a:link {
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .iconos, .iconos__texto--titulo {
-    margin-left: -0.5em; }
+    margin-left: 0; }
   .iconos__texto--titulo {
     font-size: 1.5rem;
     margin-left: 0.5em; }
@@ -806,7 +803,9 @@ a:link {
     top: 0.5em;
     width: 5%; }
   .foto {
-    margin-bottom: -51.5px; } }
+    margin-bottom: -51.5px; }
+  .button--covid {
+    margin-top: 3.2em; } }
 
 @media only screen and (max-width: 360px) {
   .foto {
@@ -872,4 +871,8 @@ a:link {
   .subtitulo {
     top: 2.5em; }
   .lema {
-    top: 4em; } }
+    top: 4em; }
+  .carousel {
+    width: 100%;
+    margin-left: auto;
+    margin-top: 16em; } }

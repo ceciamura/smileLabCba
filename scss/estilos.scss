@@ -508,7 +508,7 @@ footer {
 @media only screen  and (  min-width: 768px)and (max-width: 1024px){
 
 .iconos, .iconos__texto--titulo{
-    margin-left:-0.5em;           
+    margin-left:0;           
 
 }
 .iconos__texto--titulo{
@@ -544,6 +544,10 @@ footer {
 .foto{
     margin-bottom:-51.5px;
 }
+.button--covid{
+    margin-top: 3.2em;
+}
+
 }
 @media only screen  and (  max-width: 360px){
     .foto{
@@ -636,5 +640,12 @@ footer {
     .lema{
         top:4em;
     }
+    .carousel{
+        width:100%;
+        margin-left: auto;        
+        margin-top: 16em;
+    
+    }
+  
 
 }
